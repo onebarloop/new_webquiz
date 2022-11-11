@@ -5,8 +5,8 @@ import { Form } from "./components/Form/Form.js";
 
 const root = document.getElementById("root");
 
-function render(callback) {
-  root.append(callback());
+function render(component) {
+  root.append(component());
 }
 
 render(Header);
