@@ -1,3 +1,7 @@
+.cardBoxes--hidden {
+  display: none;
+}
+
 .card__answer {
   display: none;
 }

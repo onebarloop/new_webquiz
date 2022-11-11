@@ -5,14 +5,17 @@ export function Footer() {
   const home = document.createElement("li");
   home.textContent = "HOME";
   home.addEventListener("click", () => {
-    console.log("home clicked");
+    document.getElementById("cardbox").classList.remove("cardBoxes--hidden");
+    document.getElementById("formbox").classList.add("form--hidden");
   });
   navbar.append(home);
+
   const form = document.createElement("li");
-  form.addEventListener("click", () => {
-    console.log("form clicked");
-  });
   form.textContent = "New Questions";
+  form.addEventListener("click", () => {
+    document.getElementById("formbox").classList.remove("form--hidden");
+    document.getElementById("cardbox").classList.add("cardBoxes--hidden");
+  });
   navbar.append(form);
 
   return footer;

@@ -1,12 +1,12 @@
 export const questions = [
   {
-    question: "bla",
-    answer: "blub",
+    question: "Das ist Frage eins",
+    answer: "Antwort eins",
     categories: ["eins", "zwei", "drei"],
     bookmarked: false,
   },
   {
-    question: "Frage zwei",
+    question: "Das ist Frage zwei",
     answer: "Anwort Zwei",
     categories: ["eins", "zwei", "drei"],
     bookmarked: false,

@@ -2,6 +2,7 @@ import { questions } from "../questions/questions.js";
 
 export function Card() {
   const cardbox = document.createElement("article");
+  cardbox.setAttribute("id", "cardbox");
   questions.forEach((element) => {
     const questionP = document.createElement("p");
     questionP.textContent = element.question;
