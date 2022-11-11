@@ -3,6 +3,9 @@
   flex-direction: row;
   list-style: none;
   gap: 2em;
+  margin: 1rem auto;
+  justify-content: center;
+  padding-inline-start: 0;
 }
 
 .navbar > li {
