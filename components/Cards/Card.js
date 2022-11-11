@@ -3,6 +3,7 @@ import { questions } from "../questions/questions.js";
 export function Card() {
   const cardbox = document.createElement("article");
   cardbox.setAttribute("id", "cardbox");
+  cardbox.classList.add("cardBox");
   questions.forEach((element) => {
     const questionP = document.createElement("p");
     questionP.textContent = element.question;
@@ -13,7 +14,7 @@ export function Card() {
       answerP.classList.toggle("card__answer--show");
     });
     cardbox.append(answerBtn);
-    const answerP = document.createElement("p");
+    const answerP = document.createElement("i");
     answerP.textContent = element.answer;
     answerP.classList.add("card__answer");
     cardbox.append(answerP);

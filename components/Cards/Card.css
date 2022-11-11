@@ -1,9 +1,23 @@
+.cardBox {
+  background-color: rgb(203, 244, 206);
+  padding: 0 1rem 1rem 1rem;
+  border: 2px dotted rgb(133, 206, 140);
+}
+
+.cardBox > p {
+  background-color: rgb(247, 255, 223);
+  padding: 0.4rem;
+  border-radius: 1rem;
+}
+
 .cardBoxes--hidden {
   display: none;
 }
 
 .card__answer {
   display: none;
+  font-weight: bolder;
+  margin-top: 0.5rem;
 }
 
 .card__answer--show {

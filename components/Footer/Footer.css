@@ -1,3 +1,9 @@
+footer {
+  background-color: rgb(231, 245, 141);
+  width: 100%;
+  margin-top: 1rem;
+}
+
 .navbar {
   display: flex;
   flex-direction: row;

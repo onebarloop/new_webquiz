@@ -17,4 +17,12 @@ export const questions = [
     categories: ["eins", "zwei", "drei"],
     bookmarked: false,
   },
+  {
+    question:
+      "Dies ist eine sehr lange Frage, um zu testen, ob und wie die Darstellung einer solchen letztlich dem Gesamtstyle schadet.",
+    answer:
+      "Die Antwort wiederum ist im Vergleich zu Frage recht kurz geraten. Belassen wir es doch dabei!",
+    categories: ["eins", "zwei", "drei"],
+    bookmarked: false,
+  },
 ];
