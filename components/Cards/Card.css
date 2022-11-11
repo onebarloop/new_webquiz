@@ -1,0 +1,7 @@
+.card__answer {
+  display: none;
+}
+
+.card__answer--show {
+  display: block;
+}
