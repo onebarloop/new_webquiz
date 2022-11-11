@@ -1,6 +1,7 @@
 export function Footer() {
   const footer = document.createElement("footer");
   const navbar = document.createElement("ul");
+  navbar.classList.add("navbar");
   footer.append(navbar);
   const home = document.createElement("li");
   home.textContent = "HOME";

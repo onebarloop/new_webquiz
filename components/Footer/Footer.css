@@ -1,0 +1,10 @@
+.navbar {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  gap: 2em;
+}
+
+.navbar > li {
+  cursor: pointer;
+}
