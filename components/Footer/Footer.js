@@ -3,6 +3,7 @@ export function Footer() {
   const navbar = document.createElement("ul");
   navbar.classList.add("navbar");
   footer.append(navbar);
+
   const home = document.createElement("li");
   home.textContent = "HOME";
   home.addEventListener("click", () => {
@@ -12,7 +13,7 @@ export function Footer() {
   navbar.append(home);
 
   const form = document.createElement("li");
-  form.textContent = "New Questions";
+  form.textContent = "NEW";
   form.addEventListener("click", () => {
     document.getElementById("formbox").classList.remove("form--hidden");
     document.getElementById("cardbox").classList.add("cardBoxes--hidden");
