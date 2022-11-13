@@ -1,0 +1,19 @@
+footer {
+  background-color: rgb(231, 245, 141);
+  width: 100%;
+  margin-top: 1rem;
+}
+
+.navbar {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  gap: 2em;
+  margin: 1rem auto;
+  justify-content: center;
+  padding-inline-start: 0;
+}
+
+.navbar > li {
+  cursor: pointer;
+}

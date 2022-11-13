@@ -1,0 +1,10 @@
+.root {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin: auto;
+  background-color: rgb(173, 232, 203);
+  padding: 0.1rem;
+  width: 50%;
+}

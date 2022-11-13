@@ -1,12 +1,12 @@
 export const questions = [
   {
-    question: "bla",
-    answer: "blub",
+    question: "Das ist Frage eins",
+    answer: "Antwort eins",
     categories: ["eins", "zwei", "drei"],
     bookmarked: false,
   },
   {
-    question: "Frage zwei",
+    question: "Das ist Frage zwei",
     answer: "Anwort Zwei",
     categories: ["eins", "zwei", "drei"],
     bookmarked: false,
@@ -14,6 +14,14 @@ export const questions = [
   {
     question: "Noch ne Frage",
     answer: "Antworten!!",
+    categories: ["eins", "zwei", "drei"],
+    bookmarked: false,
+  },
+  {
+    question:
+      "Dies ist eine sehr lange Frage, um zu testen, ob und wie die Darstellung einer solchen letztlich dem Gesamtstyle schadet.",
+    answer:
+      "Die Antwort wiederum ist im Vergleich zu Frage recht kurz geraten. Belassen wir es doch dabei!",
     categories: ["eins", "zwei", "drei"],
     bookmarked: false,
   },
