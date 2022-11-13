@@ -9,9 +9,11 @@ export function Form() {
   formbox.append(form);
   const questionBox = document.createElement("textarea");
   questionBox.setAttribute("name", "question");
+  questionBox.setAttribute("placeholder", "...type your question");
   form.append(questionBox);
   const answerBox = document.createElement("textarea");
   answerBox.setAttribute("name", "answer");
+  answerBox.setAttribute("placeholder", "...type your answer");
   form.append(answerBox);
   const submitBtn = document.createElement("button");
 
@@ -26,6 +28,7 @@ export function Form() {
       },
     ];
     formbox.append(Card(newQuestion));
+    event.target.reset();
     event.target.question.focus();
   });
   return formbox;
