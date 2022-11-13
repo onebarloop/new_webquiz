@@ -1,10 +1,8 @@
-import { questions } from "../questions/questions.js";
-
-export function Card() {
+export function Card(data) {
   const cardbox = document.createElement("article");
   cardbox.setAttribute("id", "cardbox");
   cardbox.classList.add("cardBox");
-  questions.forEach((element) => {
+  data.forEach((element) => {
     const questionP = document.createElement("p");
     questionP.textContent = element.question;
     cardbox.append(questionP);
