@@ -14,3 +14,11 @@
   margin: auto;
   margin-bottom: 1rem;
 }
+
+.form > p {
+  margin-top: -1rem;
+  margin-bottom: -0.5rem;
+  font-size: 0.8rem;
+  align-self: flex-end;
+  justify-self: flex-start;
+}
