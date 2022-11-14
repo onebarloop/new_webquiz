@@ -1,4 +1,5 @@
 import { Card } from "../Cards/Card.js";
+import { questions } from "../questions/questions.js";
 
 export function Form() {
   const formbox = document.createElement("div");
@@ -21,15 +22,15 @@ export function Form() {
   form.append(submitBtn);
   form.addEventListener("submit", (event) => {
     event.preventDefault();
-    const newQuestion = [
-      {
-        question: event.target.question.value,
-        answer: event.target.answer.value,
-      },
-    ];
-    formbox.append(Card(newQuestion));
+    const newQuestion = {
+      question: event.target.question.value,
+      answer: event.target.answer.value,
+    };
+    questions.push(newQuestion);
+    console.log(questions);
+    formbox.append(Card([newQuestion]));
     const cardBoxMain = document.querySelector('[data-js="cardBoxMain"]');
-    cardBoxMain.append(Card(newQuestion));
+    cardBoxMain.append(Card([newQuestion]));
     event.target.reset();
     event.target.question.focus();
   });

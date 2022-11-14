@@ -6,11 +6,11 @@ import { questions } from "./components/questions/questions.js";
 
 const root = document.getElementById("root");
 
-function render(component) {
-  root.append(component());
+function render(component, props) {
+  root.append(component(props));
 }
 
 render(Header);
-root.append(Card(questions));
+render(Card, questions);
 render(Form);
 render(Footer);
