@@ -1,7 +1,7 @@
 .cardBox {
   background-color: rgb(203, 244, 206);
-  padding: 0 1rem 1rem 1rem;
-  border: 2px dotted rgb(133, 206, 140);
+  /*padding: 0 1rem 1rem 1rem; */
+  /*border: 2px dotted rgb(133, 206, 140); */
 }
 
 .cardBox > p {

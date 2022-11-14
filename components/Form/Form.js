@@ -28,6 +28,8 @@ export function Form() {
       },
     ];
     formbox.append(Card(newQuestion));
+    const cardBoxMain = document.querySelector('[data-js="cardBoxMain"]');
+    cardBoxMain.append(Card(newQuestion));
     event.target.reset();
     event.target.question.focus();
   });

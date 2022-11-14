@@ -1,6 +1,7 @@
 export function Card(data) {
   const cardbox = document.createElement("article");
   cardbox.setAttribute("id", "cardbox");
+  cardbox.setAttribute("data-js", "cardBoxMain");
   cardbox.classList.add("cardBox");
   data.forEach((element) => {
     const questionP = document.createElement("p");
